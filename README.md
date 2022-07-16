@@ -121,4 +121,4 @@ if __name__ == "__main__":
 
 This project detailed the process of scraping and creating a Webapp for the purposes of displaying Mars data and images. This project was customized using ```HTML``` code with ```Bootstrap 3``` details. Specific details like color, shape, size, font, etc. were used to customize this project and display the image in a fun and unique webapp.
 
-##Created by Ryan J. Lynch##
+__Created by Ryan J. Lynch__
