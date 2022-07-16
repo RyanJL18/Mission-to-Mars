@@ -21,7 +21,8 @@
 
 __Identifying Images of Mars and Dev Tools to inspect for full scale images of Mars.__
 
-########## INSERT IMAGE OF INDETIFYING IMAGE ###########
+![Identifying_Image.png](https://github.com/RyanJL18/Mission-to-Mars/blob/main/Resources/Identifying_Image.png)
+
 ```
 # 1. Use browser to visit the URL 
 url = 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'
@@ -59,7 +60,9 @@ hemisphere_image_urls
 
 Using the code above, four images were scraped for use in the Web App below:
 
-########## INSERT IMAGE OF MARS ON WEBAPP ###########
+![Webapp_Mars_Images_Code.png](https://github.com/RyanJL18/Mission-to-Mars/blob/main/Resources/D1_Image_scrape.png)
+
+![Webapp_Mars_Images.png](https://github.com/RyanJL18/Mission-to-Mars/blob/main/Resources/Screenshot%202022-05-22%20175513.png)
 
 ## Deliverable 2
 ### __Update the Web App with Mars’s Hemisphere Images and Titles__ ###
@@ -101,7 +104,21 @@ if __name__ == "__main__":
 
 ## Deliverable 3
 ### __Add aditional Bootstrap Components__
+```
+ <body>
+    <div class="container", style="background-color:sandybrown">
+      <!-- Add Jumbotron to Header -->
+      <div class="jumbotron text-center" style="background-image: url('https://wallpapercave.com/wp/wp7720219.jpg'); background-position: bottom; background-size: cover">
+        <h1 style="color:whitesmoke" > Mission to Mars</h1>
+        <!-- Add a button to activate scraping script -->
+        <p><a style="color:whitesmoke; background-color: darkred; border:coral ;" class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
+      </div>
+```
 
-########## INSERT IMAGE OF PAGE ##########
+![Mars_Webapp_Page.png](https://github.com/RyanJL18/Mission-to-Mars/blob/main/Resources/Screenshot%202022-05-22%20175420.png)
 
+## Summary
 
+This project detailed the process of scraping and creating a Webapp for the purposes of displaying Mars data and images. This project was customized using ```HTML``` code with ```Bootstrap 3``` details. Specific details like color, shape, size, font, etc. were used to customize this project and display the image in a fun and unique webapp.
+
+## Created by Ryan J Lynch ##
